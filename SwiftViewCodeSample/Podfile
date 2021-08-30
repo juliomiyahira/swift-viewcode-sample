@@ -8,22 +8,16 @@ target 'SwiftViewCodeSample' do
 
   # Pods for SwiftViewCodeSample
   pod 'SnapKit', '~> 5.0.0'
-  pod 'Quick'
-  pod 'Nimble'
-  pod 'Nimble-Snapshots'
 
   target 'SwiftViewCodeSampleTests' do
     inherit! :search_paths
-    # Pods for testing
     pod 'Quick'
     pod 'Nimble'
     pod 'Nimble-Snapshots'
+    # Pods for testing
   end
 
   target 'SwiftViewCodeSampleUITests' do
-    pod 'Quick'
-    pod 'Nimble'
-    pod 'Nimble-Snapshots'
   end
 
 end
